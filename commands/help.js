@@ -11,7 +11,7 @@ module.exports.run = async (bot, message, args, prefix) => {
    .setTitle("Botiso™ Help Command")
    .setTimestamp()
    .setFooter(`Requested By ${message.author.username}`, `${message.author.avatarURL}`)
-   .addField("➭ General Commands", "[`avatar`]", true)
+   .addField("➭ General Commands", "[`avatar`],[`ping`]", true)
    .addField("➭ Fun Commands", "[`say`]", true)
    .addField("➭ Modaration Commands", "[`purge`]¡,[`Mute`]", true) 
    .addField("➭ Music Commands", "*Coming Soon*", true)
