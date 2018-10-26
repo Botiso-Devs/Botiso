@@ -7,11 +7,7 @@ bot.on("message", (message) => {
    }
 });
 
-bot.on("message", (message) => {
- if(message.content === ".uptime") {
-  message.channel.send("Under Work")
-  }
-});
+
 
 bot.on("ready", async () => {
  console.log("Bot Online... Made By Botiso Dev Team")
