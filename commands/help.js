@@ -2,8 +2,7 @@ const Discord = require("discord.js");
 
 module.exports.run = async (bot, message, args, prefix) => {
   if 
-    (message.content.indexOf(process.env.PREFIX) !== 0) return;    
-   let msg = message.channel.send("◇◆**__Help Under Devlopment__**◆◇")
+    (message.content.indexOf(process.env.PREFIX) !== 0) return;
   
   let bicon = bot.user.avatarURL
   
