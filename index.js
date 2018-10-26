@@ -3,7 +3,7 @@ const bot =  new Diacord.Client();
 
 bot.on("message", (message) => {
  if(message.content === ".help") {
-   message.channel.send("Not Happening Yet Buf
+   message.channel.send("Not Happening Yet Bud")
    }
 });
 
