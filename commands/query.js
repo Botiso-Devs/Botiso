@@ -1,6 +1,8 @@
 module.exports.run = async (bot, message, args) => {if (message.content.indexOf(process.env.PREFIX) !== 0) return; 
 function sendInfo(message, ip, port){
     if(!args[0] === ".query") return message.channel.send("LOL")
+    let ip = args[1];
+    let port = args[2]
     queryfor = "Query for " + ip + " " + port + ""; 
     site = "https://use.gameapis.net/mcpe/query/extensive/" + ip + ":" + port;
     status = "Offline";
