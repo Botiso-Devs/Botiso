@@ -13,7 +13,7 @@ module.exports.run = async (bot, message, args, prefix) => {
    .setFooter(`Requested By ${message.author.username}`, `${message.author.avatarURL}`)
    .addField("➭ General Commands", "*Coming Soon*", true)
    .addField("➭ Fun Commands", "*Coming Soon*", true)
-   .addField("➭ Modaration Commands", "[`Mute`]", true) 
+   .addField("➭ Modaration Commands", "[`purge`]¡,[`Mute`]", true) 
    .addField("➭ Music Commands", "*Coming Soon*", true)
    .addField("➭ Extra Commands", "*Coming Soon*", true)
    .setThumbnail(bicon)
