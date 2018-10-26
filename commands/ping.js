@@ -23,14 +23,7 @@ module.exports.run = async (bot, message, args) => {
 
         
     let msg = await message.channel.send(pingembed);
-   await msg.react("5️⃣");
-   await msg.react("4️⃣");
-   await msg.react("3️⃣");
-   await msg.react("2️⃣");
-   await msg.react("1️⃣");
-   await msg.delete();
-        
-
+   
 };
 
 module.exports.help = {
