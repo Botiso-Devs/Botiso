@@ -13,4 +13,9 @@ bot.on("message", (message) => {
   }
 });
 
+bot.on("ready", async () => {
+ console.log("Bot Online... Made By Botiso Dev Team")
+ bot.user.setActivity("Coding Central", {type: "PLAYING"});
+ });
+
 bot.login(process.env.BOT_TOKEN);
