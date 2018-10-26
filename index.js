@@ -34,7 +34,8 @@ let uptime = `*${hours} hours, ${minutes} minutes and ${seconds} seconds*`;
   .setFooter(`Requested By ${message.author.username}`, `${message.author.avatarURL}`)
   .setTimestamp()
  
-  message.channel.aend(uptimee)
-});
+  message.channel.send(uptimee)
+   }
+ });
  
 bot.login(process.env.BOT_TOKEN);
