@@ -1,6 +1,8 @@
 const Discord = require("discord.js");
 
 module.exports.run = async (bot, message, args) => {
+  if
+    (message.content.indexOf(process.env.PREFIX) !== 0) return;
 
   if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.reply("No.");
   if(!args[0]) return message.channel.send("no");
@@ -11,5 +13,5 @@ module.exports.run = async (bot, message, args) => {
 }
 
 module.exports.help = {
-  name: "clear"
+  name: "purge"
 }
