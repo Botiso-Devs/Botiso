@@ -1,5 +1,5 @@
 module.exports.run = (bot, message, args) => {
-If
+ If
  (message.content.indexOf(process.env.PREFIX) !== 0) return;
   message.channel.send({
       embed: {
