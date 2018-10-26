@@ -8,7 +8,7 @@ bot.on("message", (message) => {
 });
 
 bot.on("message", (message) => {
- if(nessage.content === ".uptime") {
+ if(message.content === ".uptime") {
 let totalSeconds = (bot.uptime / 1000);
 let hours = Math.floor(totalSeconds / 3600);
 totalSeconds %= 3600;
