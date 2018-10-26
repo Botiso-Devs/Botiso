@@ -3,9 +3,17 @@ const bot =  new Discord.Client();
 
 bot.on("message", (message) => {
  if(message.content === ".help") {
-   message.channel.send("Not Happening Yet Bud!!!!!")
-   }
-});
+  let help = new Discord.RichEmbed()
+  .setColor("RANDOM")
+  .setTitle("Botiso Help Commands")
+  .setField("●◆**__General Commands__**◆●", "[`test']", true)
+  .setFooter(`Requested By ${message.author.username}`, `${message.author.avatarURL}`)
+  .setTimestamp()
+  
+  message.channel.send(help)
+  }
+ });
+ 
 
 
 
