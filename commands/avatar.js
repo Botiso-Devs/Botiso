@@ -11,6 +11,7 @@ if
     }
   ]});
 
+  message.delete();
   msg.delete();
 }
 
