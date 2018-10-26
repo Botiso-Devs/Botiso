@@ -6,7 +6,7 @@ bot.on("message", (message) => {
   let help = new Discord.RichEmbed()
   .setColor("RANDOM")
   .setTitle("Botiso Help Commands")
-  .setField("●◆**__General Commands__**◆●", "[`test']", true)
+  .addField("General Commands", "[`test']", true)
   .setFooter(`Requested By ${message.author.username}`, `${message.author.avatarURL}`)
   .setTimestamp()
   
