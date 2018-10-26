@@ -31,8 +31,8 @@ function sendInfo(message, ip, port){
             }
 
             message.channel.send(
-                queryfor + " (" + i["players"]["online"] +"/" + i["players"]["max"] +"\n
-" + 
+                queryfor + " (" + i["players"]["online"] +"/" + i["players"]["max"] +"\n```" +
+
                 "Status: " + status + "\n" +
                 "MOTD: " + i["motd"] + "\n" + 
                 "IP: " + ip + "\n" + 
