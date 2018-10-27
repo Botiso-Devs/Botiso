@@ -19,7 +19,7 @@ module.exports.run = async (bot, message, args) => {
 
         .addField(`Your Ping:`, new Date().getTime() - message.createdTimestamp + " ms ")
         .setTimestamp(new Date())
-        .setFooter(`requested by ${message.author.tag}`);
+        .setFooter(`Requestedequested by ${message.author.username}`, `${message.author.avatarURL}`);
 
         
     let msg = await message.channel.send(pingembed);
