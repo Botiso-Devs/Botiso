@@ -13,10 +13,12 @@ fs.writeFile('Storage/userData.json', JSON.stringify(userData), (err) => {
  if (err) console.log(err);
  })
  
+ let moneyz = userData[sender.id + message.guild.id].money;
+ 
  let bal = new Discord.RichEmbed()
  .setColor("RED")
  .setTitle("Balance Command")
- .addField("Your Balance", (`userData[sender.id + message.guild.id].money;, true)
+ .addField("Your Balance", moneyz, true)
  
  let msg = await message.channel.send(bal)
  }
