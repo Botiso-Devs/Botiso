@@ -2,7 +2,7 @@ const fs = require("fs")
 module.exports.run = async (bot, message, args) => {
 if (message.content.indexOf(process.env.PREFIX) !== 0) return; 
 
-let UserData = JSON.parse(fs.readFileSync('Storage/UserData.json', "utf8"));
+let userData = JSON.parse(fs.readFileSync('Storage/UserData.json', "utf8"));
 
 let sender = message.author
 
