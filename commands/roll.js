@@ -12,7 +12,7 @@ let roll = [
 
 let rAnswer = roll[Math.floor(Math.random() * roll.length)]
 
-message.channel.send("You Rolled A " + rAnswer)
+message.channel.send("You rollled a " + rAnswer)
 }
 
 module.exports.help = {
