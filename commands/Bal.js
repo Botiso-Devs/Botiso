@@ -14,3 +14,8 @@ let sender = message.author
 let moneyz = userData[sender.id + message.guild.id].money
 
 message.channel.send(moneyz)
+}
+                          
+module.exports.help = {
+name: "bal"
+}
