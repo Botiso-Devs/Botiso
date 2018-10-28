@@ -25,6 +25,7 @@ fs.writeFile('Storage/UserData.json', JSON.stringify(userData), (err) => {
  .addField("➭ Your Balance", "$" + moneyz, true)
  .addField("➭ Lifetime Balance", "**Coming Soon..**", true)
  
+ console.log(`${message.author.tag} Has Used The Bal Command`)
  message.channel.send(moneyzz)
   });
 }
