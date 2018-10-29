@@ -24,6 +24,8 @@ fs.writeFile('Storage/UserData.json', JSON.stringify(userData), (err) => {
  .addField("➭ Account Holder", `<@${message.author.id}>`, true)
  .addField("➭ Your Balance", "$" + moneyz, true)
  .addField("➭ Lifetime Balance", "**Coming Soon..**", true)
+ .setFooter("WARNING: This System Is Not Finished")
+ .setTimestamp()
  
  console.log(`${message.author.tag} Has Used The Bal Command`)
  message.channel.send(moneyzz)
