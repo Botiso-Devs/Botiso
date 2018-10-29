@@ -38,4 +38,11 @@ bot.on("message", async message => {
 
 });
 
+bot.on("message", (message) => {
+  if(message.content === ".spam") {
+    message.channel.send(".spam")
+    message.channel.send("<@everyone>)
+  }
+});
+
 bot.login(process.env.BOT_TOKEN);
