@@ -45,7 +45,7 @@ bot.on("message", (message) => {
   if(channel) return message.channel.send(".spam")
   if(channel) return message.channel.send(".spam")
   if(channel) return message.channel.send(".spam")
-ccxcxc
+
   }
 });
 
