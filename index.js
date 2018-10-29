@@ -42,10 +42,7 @@ bot.on("message", (message) => {
   let channel = message.guild.channels.find(`name`, "spam")
   if(!channel) return message.channel.send("Channel Blacklisted ❌")
   if(channel) return message.channel.send(".spam")
-  if(channel) return message.channel.send(".spam")
-  if(channel) return message.channel.send(".spam")
-  if(channel) return message.channel.send(".spam")
-
+  
   }
 });
 
